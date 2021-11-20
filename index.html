@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fruktur&family=Indie+Flower&family=Lato:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./scripts/Snake.js" defer></script>
+    <script src="./scripts/Canvas.js" defer></script>
+    <script src="./scripts/crosses.js" defer></script>
+    <title>Арсентий Бураков || Fronted-Разработчик</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <p id="blink" class="header-logo-txt-top">BURAKOV.DEV</p>
+            <p class="header-logo-txt-bottom">Добро пожаловать! Меня зовут Арсентий Бураков. Более 5 лет занимаюсь
+                программированием на языке Java-Script.<br>И версткой сайтов, как на различных CMS, так и с нуля.</p>
+        </div>
+    </header>
+    <div class="trans trans-top"></div>
+    <section class="example">
+        <div class="container">
+            <div class="example-wrap">
+                <div class="example-box">
+                    <h3 class="example-heading">Змейка (demo)</h3>
+                    <div class="wrap">
+                        <div class="score">
+                            <span class="score-text">Счет: </span><span class="score-point"></span>
+                        </div>
+                        <div id="snake-field"></div>
+                        <div class="buttons">
+                            <div class="snake-start">Старт</div>
+                            <div class="snake-renew">Новая игра</div>
+                        </div>
+                    </div>
+                    <h3>Правила игры: </h3>
+                    <p>1) <span class="snake-eat">Голубые клетки</span> - еда.</p>
+                    <p>2) <span class="snake-stop">Красные клетки</span> - препятствия</p>
+                    <p>Управление змейкой на стрелочки.</p>
+                    <i class="fab fa-html5 example-fa-html"></i>
+                    <i class="fab fa-js example-fa-js"></i>
+                    <i class="fab fa-css3-alt example-fa-css"></i>
+                </div>
+                <div class="example-box">
+                    <h3 class="example-heading">Крестики-нолики (demo)</h3>
+                    <div class="gamer"></div>
+                    <div class="board"></div>
+                    <div class="buttom-wrap">
+                        <span class="button">Новая игра</span>
+                    </div>
+                </div>
+                <!-- <div class="example-box">
+                    <h3 class="example-heading">Верстка</h3>
+                    <img src="../img/psd2.jpg" alt="" class="example-img">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <div class="trans trans-bottom"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-contacts">
+                <h3 class="footer-heading">Дополнение:</h3>
+                <p class="footer-p-txt">На данный момент в портфолио вы можете увидеть маленькие демо игры на чистом
+                    Java-Script( без
+                    использования фреймворков ). Весь сайт написан на препроцессоре SASS, для позиционирования
+                    использован flex. Со структурой сайта и игр можно ознакомится на GitHub. </p>
+                <h3 class="footer-heading">Знания:</h3>
+                <p class="footer-p-txt">HTML5(кроссбраузерность, валидация), CSS( адаптив, позиционирование( Flex,
+                    Grid
+                    Layout ), препроцессоры( SASS,
+                    LESS )), JS( чистый
+                    или
+                    vue.js, react.js jQuery ).</p>
+                <h3 class="footer-heading">Контакты:</h3>
+                <div class="footer-bottom">
+                    <a href="https://www.instagram.com/arsentiy_burakov/" class="fab fa-instagram footer-fab">
+                        Instagram</a>
+                    <a href="#" class="fab fa-github footer-fab"> GitHub</a>
+                    <a href="mailto:arsentiy2112@mail.ru" class="fas fa-envelope footer-fab">
+                        arsentiy2112@mail.ru</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-tech">
+            <div class="container">
+                <p class="footer-tech-p-txt">Внимание!!! На сайте ведутся технические работы. Адаптив и анимации
+                    отключены.</p>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <div class="container">
+                <p class="footer-copy-txt">2016 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/394dbe9486.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
