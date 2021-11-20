@@ -1,0 +1,40 @@
+.header
+    padding-top: 15px
+    background: #000000
+    &-logo-txt-top
+        font-size: 30px
+        color: #ffffff
+        font-family: $f-f-i-f
+        -webkit-animation: blink 3s linear infinite
+        animation: blink 1s linear infinite
+    &-logo-txt-bottom
+        font-size: 20px
+        font-family: $f-f-c
+        color: #a8a8a8
+        //color: #a8a8a8
+        padding-bottom: 110px
+        //animation: typing 3.5s steps(30, end), blink-caret .7s step-end infinite
+        //white-space: nowrap
+        overflow: hidden
+        //border-right: 3px solid #e29508
+
+@-webkit-keyframes blink
+   100% 
+    color: #002fff
+
+@keyframes blink
+    100%
+        text-shadow: 5px 5px 5px #0051ff, 5px 5px 5px #0051ff, 3px 3px 3px #0051ff
+        color: #0051ff
+
+// @keyframes typing
+//     from
+//         width: 0
+//     to
+//         width: 100%
+
+// @keyframes blink-caret
+//   from, to 
+//     border-color: transparent
+//     50%
+//         border-color: orange

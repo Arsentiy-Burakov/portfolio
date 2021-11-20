@@ -1,0 +1,39 @@
+.trans
+    height: 130px
+    background-image: url(../img/transition_top.png)
+    &-top
+        margin-top: -130px
+    &-bottom
+        transform: rotate(180deg)
+        margin-bottom: -129px
+        //border: 1px solid red
+.example
+    font-family: $f-f-c
+    text-align: center
+    &-wrap
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &-box
+        margin-top: 20px
+        width: 49%
+        border-radius: 15px
+    &-box:nth-child(2)
+        margin-right: 0
+    &-box:nth-child(3)
+        width: 100%
+        margin-right: 0
+    &-heading
+        padding-top: 15px
+        font-size: 35px
+        color: #006eff
+    &-fa-html
+        font-size: 30px
+        color: #ff0000
+    &-fa-js
+        font-size: 45px
+        color: #2bff00
+    &-fa-css
+        font-size: 30px
+        color: #cc00ff
+    &-img
